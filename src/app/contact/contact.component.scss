@@ -1,0 +1,87 @@
+#contact{
+    background-color: #f7f7f7 !important;
+    i{
+        color: #ebb576;
+    }
+    p{
+        color: #555;
+}
+}
+
+::ng-deep  .owl-carousel .owl-dots .owl-dot span {
+    background: transparent;
+    border: 1px solid #555;
+    transition: all 0.7s ease;
+    padding: 5px;
+    font-size: 14px;
+    z-index: 10000;
+  }
+  ::ng-deep  .owl-carousel .owl-dots .owl-dot:hover span,
+  ::ng-deep  .owl-carousel .owl-dots .owl-dot.active span {
+    background: #ebb576;
+    border: 1px solid #ebb576;
+    padding: 5px;
+  }
+h3{
+    color: hwb(0 26% 74%);
+    font-size: 18px;
+    position: relative;
+    padding: 0 0 15px;
+    font-weight: 600;
+}
+ h3::before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    z-index: 1;
+    background-color: #ddd;
+}
+ h3::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    bottom: 0;
+    background-color: #ebb576;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    z-index: 2;
+}
+.btn{
+    background-color: #ebb576;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: all .7s ease-in-out;
+    border: 1px #ebb576 solid;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #ebb576;
+
+}
+p{
+    color: #767575;
+}
+h5{
+    color: #555;
+}
+i{
+    color:#ebb576
+}
+.icon{
+    background-color: #ebb576;
+    color: #fff;
+    font-size: 14px;
+    transition: background-color .7s;
+}   
+.icon:hover{
+    background-color: #555;
+    color: #fff;
+
+}

@@ -1,0 +1,18 @@
+#product{
+    img{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+    h5{
+        color: #ebb576;
+    }
+    h6{
+        color: #787878;
+    }
+    .modal img{
+       min-width: 600px;
+       min-height: 600px;
+        object-fit: cover;
+    }
+}

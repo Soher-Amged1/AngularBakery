@@ -1,0 +1,128 @@
+
+h2{
+    color: #ebb576;
+}
+h4{
+    color: white;
+    font-weight: 700;
+}
+p{
+    width: 75%;
+
+}
+.slide1{
+background-image: url(../../assets/media/slide-1.jpg);
+background-position: center center;
+background-size: cover;
+height: 100vh;
+}
+
+#offer img{
+    width: 130px;
+    height: 130px;
+    margin-bottom: 2px;
+}
+#offer h4{
+    font-size: 16px;
+    color: #555;
+}
+#offer span{
+    color: #ebb576;
+    font-weight: 700;
+}
+
+
+.nav-pills .nav-link
+{
+    color: #555;
+    background-color: transparent;
+    border: none;
+}
+.nav-pills .nav-link.active{
+    color: #ebb576;
+}
+.btn{
+    color: #555;
+    border: 1px solid #555;
+    border-radius: 3px;
+    transition: all .7s;
+}
+.btn:hover{
+    border-color: #555;
+    background-color: #555;
+    color: #fff;
+}
+ 
+
+@media only screen and (max-width: 479px){ 
+  .slide1{
+
+    h2{
+        font-size: 18px;
+    }
+    h4{
+        font-size: 14px;
+    }
+    p{
+        font-size: 10px;
+        width: 90%;
+    }
+
+  
+    #offer{
+        text-align: center;
+        p{
+            text-align: center;
+        }
+    }
+    #offer img{
+        width: 100px;
+        height: 100px;
+    }
+    #offer h4{
+        font-size: 14px;
+    }
+    #offer span{
+        font-size: 12px;
+    }
+    #offer h3{
+        span{
+            font-size: 18px;
+        }
+    }
+    
+}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px){ 
+    .slide1{
+      
+        h2{
+            font-size: 18px;
+        }
+        h4{
+            font-size: 14px;
+        }
+        p{
+            font-size: 10px;
+            width: 100%;
+        }
+  
+    }
+ }
+
+ @media only screen and (min-width: 768px) and (max-width: 1024px){ 
+    .slide1{
+      
+        h2{
+            font-size: 22px;
+        }
+        h4{
+            font-size: 18px;
+        }
+        p{
+            font-size: 12px;
+            width: 100%;
+        }
+        
+ }
+}
